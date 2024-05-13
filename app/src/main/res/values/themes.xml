@@ -6,4 +6,38 @@
 	</style>
 
 	<style name="Theme.MobileExam" parent="Base.Theme.MobileExam" />
+
+	<style name="Base.Theme.TestProject" parent="Theme.Material3.DayNight.NoActionBar">
+		<!-- Customize your light theme here. -->
+		<item name="colorPrimary">@color/AppColorDark</item>
+		<item name="android:statusBarColor">@color/status_bar_color</item>
+		<item name="android:windowBackground">@drawable/bg_app_window</item>
+		<item name="android:textViewStyle">@style/TextViewTheme</item>
+	</style>
+
+	<style name="Theme.TestProject" parent="Base.Theme.TestProject" />
+
+	<style name="TextViewTheme" parent="Widget.MaterialComponents.TextView">
+		<item name="android:textColor">@color/text_color</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:padding">8dp</item>
+	</style>
+
+	// splash screen themes
+	<style name="Theme.SupplyChain.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+		<item name="android:windowBackground">@drawable/splash_window</item>
+		<item name="colorPrimaryDark">@color/AppColorDark</item>
+		<item name="colorPrimary">@color/AppColorLight</item>
+		<item name="colorAccent">@color/AppColorSecondary</item>
+		<item name="android:windowAnimationStyle">@style/MyActivityAnimations</item>
+	</style>
+
+	// Activity Animations
+	<style name="MyActivityAnimations" parent="@android:style/Animation.Activity">
+		<item name="android:activityOpenEnterAnimation">@android:anim/fade_in</item>
+		<item name="android:activityOpenExitAnimation">@android:anim/fade_out</item>
+		<item name="android:activityCloseEnterAnimation">@android:anim/fade_in</item>
+		<item name="android:activityCloseExitAnimation">@android:anim/fade_out</item>
+	</style>
+
 </resources>

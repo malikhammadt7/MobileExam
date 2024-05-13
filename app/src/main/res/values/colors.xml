@@ -2,4 +2,17 @@
 <resources>
 	<color name="black">#FF000000</color>
 	<color name="white">#FFFFFFFF</color>
+
+	<color name="AppColorDark">#FF9800</color>
+	<color name="AppColorSecondary">#CDDC39</color>
+	<color name="AppColorLight">#00BCD4</color>
+
+	<color name="btnNormalIdle">#9B9B9B</color>
+	<color name="btnNormalFocus">#CE4848</color>
+	<color name="btnNormalPress">#51FA22</color>
+
+	<color name="my_light_primary">#FFFFFF</color>
+	<color name="button_text_color">#000000</color>
+	<color name="text_color">#333333</color>
+	<color name="status_bar_color">#FFFFFF</color>
 </resources>
